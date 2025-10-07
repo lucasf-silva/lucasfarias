@@ -6,3 +6,13 @@ body {
   display: block;
   background-color: #2E2E2E;
 }
+
+@theme {
+  /* Cor principal genérica */
+  --color-primary-100: #0292DC;
+  --color-primary-default: #02A8FB;
+
+  /* Cor de botão que usa a cor principal */
+  --color-button: var(--color-primary-default);
+  --color-button-hover: var(--color-primary-100);
+}
